@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 90px;
+    margin-top: 10px;
+
+}
+
+
+
+.listContainer {
+    gap: 40px;
+}
+.profile {
+    align-self: center;
+    justify-self: center;
+}
+.moonIcon {
+    align-self: center;
+}
