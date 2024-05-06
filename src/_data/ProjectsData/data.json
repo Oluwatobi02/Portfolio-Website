@@ -1,0 +1,52 @@
+[
+    {
+        "id": 0,
+        "name": "Space-A-Thon",
+        "date": "October 2023",
+        "link": "https://yypstpafvrtwgcihc2pogq.on.drv.tw/www.spaceathon.com/index.html.html",
+        "tech_stack": ["html", "css", "javascript", "bootstrap"],
+        "role": "Full Stack Engineer",
+        "desc": "In the vibrant setting of the Codeswarm Hackathon hosted at Delaware State University, Dover, I spearheaded the development of 'Space-A-Thon,' an innovative educational web application aimed at igniting curiosity and exploration in the realm of space science. Harnessing a rich blend of HTML, CSS, JavaScript, and Bootstrap technologies, I meticulously crafted an immersive digital platform designed to captivate and educate users of all backgrounds.'Space-A-Thon' served as a beacon of discovery, offering users a captivating journey through space exploration, missions, and celestial phenomena. With a robust interactive quiz section, users were empowered to deepen their understanding of space science while engaging in an enriching learning experience. At the heart of the project lay a commitment to fostering collaborative insights and knowledge exchange. During the hackathon event, I proudly presented 'Space-A-Thon' to an eager audience of over 100 participants, delivering compelling live demos and facilitating interactive discussions that sparked curiosity and inspired discovery. Through 'Space-A-Thon,' we aimed not only to educate but also to cultivate a vibrant community of space enthusiasts. By providing accessible and engaging educational content, we empowered users to embark on their own cosmic adventures, fueling a passion for exploration that extends far beyond the confines of the hackathon.",
+        "img": ["./projectPhoto/SpaceAThon1.jpg", "./projectPhoto/SpaceAThon2.jpg", "./projectPhoto/SpaceAThon3.jpg", "./projectPhoto/SpaceAThon4.jpg", "./projectPhoto/SpaceAThonCode.jpg"],
+        "short_desc": "Developed an educational web app centered on space exploration, featuring interactive quizzes to enrich learning. Presented to a 100-member audience at a hackathon, showcasing live demos and fostering collaborative discussions.",
+        "preview_img": "/projectPhoto/SpaceAThon1.jpg",
+        "duty": ["Engineered an impactful educational web application on space exploration, missions, phenomena, and an interactive quiz section to reinforce learning.", "Engineered an impactful educational web application on space exploration, missions, phenomena, and an interactive quiz section to reinforce learning.", "Presented application to a 100-member audience at a hackathon, fostering collaborative insights. Conducted live demos with interactive space quizzes, imparting new knowledge and ensuring continuous user engagement."]
+    },
+    {
+        "id": 1,
+        "name": "Teachable",
+        "date": "December 2023",
+        "link": "",
+        "tech_stack": ["react", "css", "javascript", "express.js", "mongodb", "node.js"],
+        "role": "Full Stack Engineer",
+        "desc": "At the forefront of innovation, Teachable emerged victorious in the prestigious Google and Society for Advancement of Computer Science (SACS) competition, solidifying its position as a transformative force in the realm of education. Tasked with leading a dynamic team of three, I orchestrated the development of Teachable, a cutting-edge platform designed to redefine the educational landscape. Harnessing a comprehensive tech stack comprising React, CSS, JavaScript, Express.js, MongoDB, and Node.js, we embarked on a journey to craft a seamless and intuitive learning experience. Central to our endeavor was the creation of a robust backend infrastructure, meticulously engineered using Express.js, MongoDB, and Node.js. This infrastructure served as the backbone of Teachable, enabling efficient management and organization of student and tutor data. With a relentless focus on innovation, we leveraged our expertise to develop a suite of APIs and database schemas, facilitating seamless interaction between the frontend and backend components. This harmonious integration ensured a fluid user experience, empowering learners and educators alike to engage with the platform effortlessly.  Collaboration lay at the heart of our success, as we worked closely with team members to seamlessly integrate backend functionalities with the frontend user interface. Through iterative development cycles and rigorous testing, we ensured that Teachable delivered on its promise of accessibility, functionality, and impact.  Teachable stands as a testament to our collective vision and dedication to advancing education. By harnessing the power of technology, we have laid the foundation for a future where learning knows no bounds, and knowledge is within reach of all.",
+        "img": ["/projectPhoto/Teachable1.jpg", "./projectPhoto/Teachable2.jpg", "./projectPhoto/TeachableChat.jpg", "./projectPhoto/TeachableCode.jpg"],
+        "short_desc": "An advanced education platform focused on optimizing student and tutor interactions. Led backend development to streamline data management, enhancing the platform's effectiveness",
+        "preview_img": "/projectPhoto/TeachableHome.jpg",
+        "duty": ["Achieved 1st place in the prestigious Google and Society for Advancement of Computer Science (SACS) competition with Teachable, leading a team of three.", "Designed and implemented backend infrastructure using Express.js, MongoDB, and Node.js for efficient management of student and tutor data.", "Developed APIs and database schemas to facilitate seamless interaction between the front-end and back-end components.", "Collaborated with team members to integrate backend functionalities with the front-end user interface, ensuring a cohesive user experience"]
+    },
+    {
+        "id": 2,
+        "name": "Fast Track",
+        "date": "April 2024",
+        "link": "",
+        "tech_stack": ["react.js", "javaScript", "css", "node.js", "python", "flask", "mongodb"],
+        "role": "Full Stack Engineer",
+        "desc": "Fast Track represents a groundbreaking leap in the realm of academic and career guidance, as it seamlessly integrates advanced technologies to empower users with personalized advice and interactive experiences. As the Full Stack Engineer behind the project, I spearheaded the development of a comprehensive web application, meticulously crafting each feature to deliver maximum impact.  Utilizing React.js, JavaScript, CSS, Node.js, Python, Flask, and MongoDB, I orchestrated a powerful backend infrastructure capable of handling complex data management tasks with ease. The integration of the OpenAI API enabled the delivery of tailored academic and career advice, revolutionizing the decision-making processes of students and professionals alike. One of the standout features of Fast Track is its interactive mock interview functionality, powered by Rev.ai's speech-to-text service. This innovative tool empowers users to receive AI-generated feedback on their interview performance, fostering confidence and clarity in real-world scenarios. In addition to backend development, I pioneered the creation of a unique exploration tool within Fast Track. This tool allows users to navigate through various majors and associated career paths, complete with resources for skill enhancement and detailed field descriptions. By facilitating educational exploration and professional development, Fast Track is poised to make a lasting impact on individuals seeking guidance in their academic and career pursuits. The successful demonstration of Fast Track in front of nearly 200 attendees underscored its innovative features and potential impact in the educational and professional development sectors. Positive feedback received during the demo affirmed the platform's relevance and effectiveness, further fueling our commitment to advancing academic and career guidance through technology.",
+        "img": ["./projectPhoto/Fastrack1.jpg", "./projectPhoto/FastrackCode1.jpg", "./projectPhoto/FastrackCode.jpg", "./projectPhoto/Fastrack.jpg"],
+        "short_desc": "Developed Fast Track, a dynamic web application revolutionizing academic and career guidance. Leveraged cutting-edge technologies to provide personalized advice and interactive mock interviews, enhancing user confidence and clarity",
+        "preview_img": "/projectPhoto/FastrackHome.jpg",
+        "duty": [
+          "Engineered a comprehensive web application utilizing the OpenAI API to deliver personalized academic and career advice, enhancing student decision-making processes.",
+          "Implemented an interactive mock interview feature using Rev.ai's speech-to-text service, enabling users to receive AI-generated feedback on interview performance, improving their confidence and clarity in real-world scenarios.",
+          "Orchestrated backend services in Flask and Python, integrating MongoDB for efficient data management, ensuring smooth operation and scalability of the platform.",
+          "Pioneered a unique exploration tool allowing users to navigate through different majors and associated career paths, complete with resources for skill enhancement and detailed field descriptions, driving educational exploration and professional development.",
+          "Successfully demoed Fast Track in front of nearly 200 attendees, showcasing the application's innovative features and receiving positive feedback, which underscored the platform's impact and potential in educational and professional development sectors."
+        ]
+      }
+      
+
+      
+    
+
+]

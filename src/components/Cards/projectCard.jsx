@@ -1,36 +1,40 @@
-import { Button, ButtonGroup, Card, CardBody, Divider, Heading, Image, Stack, Text } from "@chakra-ui/react"
+import { Button, ButtonGroup, Card, CardBody, CardFooter, Divider, Heading, Image, Stack, Text } from "@chakra-ui/react"
+import styles from './projectCard.module.scss'
 
-
-const projectCard = () => {
-
+const ProjectCard = ({project}) => {
+console.log(project.preview_img)
   return ( 
 <Card maxW='sm'>
   <CardBody>
+    
     <Image
-      src='https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80'
+      src={project.preview_img}
       alt='Green double couch with wooden legs'
       borderRadius='lg'
     />
     <Stack mt='6' spacing='3'>
-      <Heading size='md'>Living room Sofa</Heading>
+      <Heading size='md'>{project.name}</Heading>
       <Text>
-        This sofa is perfect for modern tropical spaces, baroque inspired
-        spaces, earthy toned spaces and for people who love a chic design with a
-        sprinkle of vintage design.
+        {project.short_desc}
       </Text>
-      <Text color='blue.600' fontSize='2xl'>
-        $450
-      </Text>
+      <div className={styles.stackContainer}>
+      {
+      project.tech_stack.map((stack, index)=> (
+      <Text key={index} color='blue.600' fontSize='1xl'>
+        {stack}
+      </Text>))
+      }
+      </div>
     </Stack>
   </CardBody>
   <Divider />
   <CardFooter>
     <ButtonGroup spacing='2'>
       <Button variant='solid' colorScheme='blue'>
-        Buy now
+        {project.role}
       </Button>
       <Button variant='ghost' colorScheme='blue'>
-        Add to cart
+        {project.date}
       </Button>
     </ButtonGroup>
   </CardFooter>
@@ -38,5 +42,5 @@ const projectCard = () => {
   )
 }
 
-export default projectCard
+export default ProjectCard
 
